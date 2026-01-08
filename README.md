@@ -8,8 +8,8 @@ def bmi_kategorie(bmi):
    elif bmi < 30:
      return "Übergewicht"
 
-   elif bmi > 30:
-     return "Adipositas"
+   else:
+      return "Adipositas"
 
 groesse = int(input("Wie groß bist du (in cm) "))
 gewicht = int(input("Wie schwer bist du (in kg) "))
